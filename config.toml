@@ -1,4 +1,4 @@
-baseURL = "http://cloudbox.ga/"
+baseURL = "https://jxl212.github.io/cloudbox.ga/"
 languageCode = "en-us"
 title = "cloudbox.ga"
 theme = "ananke"
