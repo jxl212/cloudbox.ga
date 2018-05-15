@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://cloudbox.ga/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "cloudbox.ga"
 theme = "ananke"
