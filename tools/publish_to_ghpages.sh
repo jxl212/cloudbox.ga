@@ -1,10 +1,10 @@
 
 #!/bin/sh
 
-DIR=$(dirname $(pwd))
+DIR=$(dirname "$1")
 
 # echo "working dir: $DIR/.."
-# cd $DIR/..
+cd $DIR/..
 echo "working dir: $(pwd)"
 
 if [[ $(git status -s) ]]
@@ -20,7 +20,7 @@ git worktree prune
 rm -rf .git/worktrees/public/
 
 echo "Checking out gh-pages branch into public"
-git worktree add -B gh-pages public upstream/gh-pages
+git worktree add -B gh-pages public origin/gh-pages
 
 echo "Removing existing files"
 rm -rf public/*
