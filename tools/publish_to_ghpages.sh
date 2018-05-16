@@ -1,11 +1,13 @@
 
 #!/bin/sh
 
-DIR=$(dirname "$1")
+# DIR=$(dirname "$1")
+# echo "$DIR"
 
-# echo "working dir: $DIR/.."
-cd $DIR/..
-echo "working dir: $(pwd)"
+cd ~/Repos/cloudbox.ga
+echo -n "working dir: "
+pwd
+# echo "working dir: $(dirname $0)"
 
 if [[ $(git status -s) ]]
 then
@@ -14,16 +16,16 @@ then
 fi
 
 echo "Deleting old publication"
-rm -rf public
+rm -rvf public
 mkdir public
 git worktree prune
-rm -rf .git/worktrees/public/
+rm -rvf .git/worktrees/public/
 
 echo "Checking out gh-pages branch into public"
 git worktree add -B gh-pages public origin/gh-pages
 
 echo "Removing existing files"
-rm -rf public/*
+rm -rvf public/*
 
 echo "Generating site"
 hugo
