@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jxl212.github.io/cloudbox.ga/categories/</loc>
+    <loc>https://localhost:1313/cloudbox.ga/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jxl212.github.io/cloudbox.ga/tags/</loc>
+    <loc>https://localhost:1313/cloudbox.ga/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jxl212.github.io/cloudbox.ga/</loc>
+    <loc>https://localhost:1313/cloudbox.ga/</loc>
     <priority>0</priority>
   </url>
   
