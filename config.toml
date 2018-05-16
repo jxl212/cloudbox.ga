@@ -1,4 +1,4 @@
-baseURL = "https://jxl212.github.io/cloudbox.ga/"
+baseURL = "https://localhost:1313/cloudbox.ga/"
 languageCode = "en-us"
 title = "cloudbox.ga"
-theme = "ananke"
+theme = "hugo-simpledoc-theme"
