@@ -4,16 +4,19 @@
   
   <url>
     <loc>https://localhost:1313/cloudbox.ga/categories/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://localhost:1313/cloudbox.ga/tags/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://localhost:1313/cloudbox.ga/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
