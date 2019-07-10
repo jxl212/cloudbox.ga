@@ -28,6 +28,7 @@ echo "Removing existing files"
 rm -rvf public/*
 
 echo "Generating site"
+cd myLocalSettings
 hugo
 
 echo "Updating gh-pages branch"
