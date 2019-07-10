@@ -1,4 +1,4 @@
-baseURL = "https://localhost:1313/"
+baseURL = "https://localhost:1313/cloudbox.ga"
 languageCode = "en-us"
 title = "cloudbox.ga"
 theme = "ananke"
