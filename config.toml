@@ -1,4 +1,4 @@
 baseURL = "https://localhost:1313/"
 languageCode = "en-us"
-title = "myLocalSettings"
+title = "cloudbox.ga"
 theme = "ananke"
