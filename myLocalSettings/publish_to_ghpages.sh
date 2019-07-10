@@ -4,7 +4,7 @@
 # DIR=$(dirname "$1")
 # echo "$DIR"
 
-cd ~/sandboxLocal/cloudbox.ga
+cd ~/sandboxLocal/cloudbox.ga/myLocalSettings
 echo -n "working dir: "
 pwd
 # echo "working dir: $(dirname $0)"
