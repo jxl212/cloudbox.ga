@@ -1,4 +1,0 @@
-baseURL = "https://localhost:1313/"
-languageCode = "en-us"
-title = "myLocalSettings"
-theme = "ananke"
